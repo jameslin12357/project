@@ -1,5 +1,5 @@
 body {
-
+    margin: 0!important;
 }
 
 .mb-10 {
@@ -14,10 +14,19 @@ body {
     margin-bottom: 30px;
 }
 
+.mt-33p {
+    margin-top: 33%;
+}
+
 .text-center {
     text-align: center;
 }
 
 .fs-30 {
     font-size: 30px;
+}
+
+.flexcc {
+    display: flex;
+    justify-items: center;
 }
