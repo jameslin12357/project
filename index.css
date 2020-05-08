@@ -57,3 +57,12 @@ body {
 .red {
     color: red;
 }
+
+.layui-btn+.layui-btn {
+    margin-left: 0!important;
+}
+
+.active {
+    background-color: blue;
+    color: white;
+}
