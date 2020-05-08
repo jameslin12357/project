@@ -30,3 +30,7 @@ body {
     display: flex;
     justify-items: center;
 }
+
+.fw-bold {
+    font-weight: bold;
+}
