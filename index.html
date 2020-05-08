@@ -15,12 +15,32 @@
 <body>
 
 <div class="layui-container">
-    <div class="layui-row">
-        <div class="text-center mt-33p">
+    <div class="layui-row" id="parent">
+        <div class="text-center mt-33p" id="child1">
 
             <h1 class="mb-15 fw-bold">前端招聘笔试题</h1>
             <p class="mb-45">请用手机打开本网页</p>
-            <i class="layui-icon layui-icon-download-circle fs-45"></i>
+            <i class="layui-icon layui-icon-download-circle fs-45" id="buttonIntro"></i>
+
+        </div>
+        <div class="mt-33p hidden" id="child2">
+
+            <h2 class="mb-15 fw-bold">请参考下面效果，实现一个移动端的排序<span class="red">*</span></h2>
+            <div class="mb-45">
+                <p class="mb-2">要求：</p>
+                <p class="mb-2">1.支持排序功能</p>
+                <p class="mb-2">2.设计和交互效果参考本页面</p>
+                <p class="mb-2">3.支持高亮当前选项</p>
+                <p>4.排序时候有过渡动效</p>
+            </div>
+            <i class="layui-icon layui-icon-download-circle fs-45" ></i>
+
+        </div>
+        <div class="text-center mt-33p hidden" id="child3">
+
+            <h1 class="mb-15 fw-bold">前端招聘笔试题</h1>
+            <p class="mb-45">请用手机打开本网页</p>
+            <i class="layui-icon layui-icon-download-circle fs-45" ></i>
 
         </div>
 
