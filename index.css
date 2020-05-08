@@ -14,6 +14,10 @@ body {
     margin-bottom: 30px;
 }
 
+.mb-45 {
+    margin-bottom: 45px;
+}
+
 .mt-33p {
     margin-top: 33%;
 }
@@ -24,6 +28,10 @@ body {
 
 .fs-30 {
     font-size: 30px;
+}
+
+.fs-45 {
+    font-size: 45px;
 }
 
 .flexcc {
