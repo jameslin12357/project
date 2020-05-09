@@ -6,27 +6,20 @@
     <title>问卷系统</title>
     <link rel="stylesheet" href="./static/layui-v2.5.6%202/layui/css/layui.css" media="all">
     <link rel="stylesheet" href="./index.css" media="all">
-
-    <style>
-        body{margin: 10px;}
-        .demo-carousel{height: 200px; line-height: 200px; text-align: center;}
-    </style>
 </head>
-<body>
 
+<body>
 <div class="layui-container">
     <div class="layui-row" id="parent">
         <div class="text-center mt-33p" id="child1">
-
             <h1 class="mb-15 fw-bold">前端招聘笔试题</h1>
             <p class="mb-45">请用手机打开本网页</p>
             <i class="layui-icon layui-icon-download-circle fs-45" id="buttonIntro"></i>
-
         </div>
         <div class="mt-33p hidden" id="child2">
+            <h2 class="mb-15 fw-bold">请参考下面效果，实现一个移动端的排序 <span class="red">*</span></h2>
 
-            <h2 class="mb-15 fw-bold">请参考下面效果，实现一个移动端的排序<span class="red">*</span></h2>
-            <div class="mb-45">
+            <div class="mb-30">
                 <p class="mb-2">要求：</p>
                 <p class="mb-2">1.支持排序功能</p>
                 <p class="mb-2">2.设计和交互效果参考本页面</p>
@@ -42,9 +35,10 @@
             </div>
 
             <div class="mb-30">
-                <button type="button" class="layui-btn layui-btn-normal w-100p">提交</button>
+                <button type="button" id="buttonSubmit" class="layui-btn layui-btn-normal w-100p">提交</button>
             </div>
-            <div class="text-center">
+
+            <div class="text-center mb-30">
                 <p class="mb-5">
                     Copyright © 1998-2020 Tencent
                 </p>
@@ -52,29 +46,20 @@
                     The system is provided by Tencent Questionnaire
                 </p>
                 <p>
-                    Disclaimer Service agreement Privacy policy Report the questionnaire
+                    <a href="#">Disclaimer</a>
+                    <a href="#">Service agreement</a>
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Report the questionnaire</a>
                 </p>
             </div>
         </div>
         <div class="text-center mt-33p hidden" id="child3">
-
-            <h1 class="mb-15 fw-bold">前端招聘笔试题</h1>
-            <p class="mb-45">请用手机打开本网页</p>
-            <i class="layui-icon layui-icon-download-circle fs-45" ></i>
-
+            <h1 class="mb-15 fw-bold">问卷到此结束, 感谢您的参与!</h1>
         </div>
-
     </div>
-
-
 </div>
-
-
-
 <script src="./static/layui-v2.5.6%202/layui/layui.js"></script>
 <script src="./static/Sortable.js"></script>
-
 <script src="./index.js"></script>
-
 </body>
 </html>
