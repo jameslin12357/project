@@ -11,5 +11,7 @@ buttonIntro.addEventListener('click',function(e){
     child2.classList.remove('hidden');
 })
 
-var el = document.getElementById('buttonContainer');
-var sortable = Sortable.create(el);
+Sortable.create(list, {
+    animation: 200,
+    ghostClass: "sortable-ghost"
+});

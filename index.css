@@ -14,6 +14,10 @@ body {
     margin-bottom: 2px;
 }
 
+.mb-5 {
+    margin-bottom: 5px;
+}
+
 .mb-30 {
     margin-bottom: 30px;
 }
@@ -65,4 +69,20 @@ body {
 .active {
     background-color: blue;
     color: white;
+}
+
+.sortable-ghost {
+    background-color: lightcyan;
+}
+
+.pd-15 {
+    padding: 15px;
+}
+
+.bd-grey {
+    border: 1px solid lightgray;
+}
+
+.w-100p {
+    width: 100%;
 }
